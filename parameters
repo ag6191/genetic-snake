@@ -1,0 +1,19 @@
+// genetic algorithm parameters
+
+POP_WIDTH 1000
+GEN_COUNT 2000
+MUTATE 0.01
+SURVIVE 0.05
+
+
+// ANN parameters (layer 1 input has to be 24)
+
+LAYER 24 12 sigmoid
+LAYER 12 8 sigmoid
+LAYER 8 4 sigmoid
+
+
+// program execution parameters
+
+THREADS 20
+REPLAY 0
